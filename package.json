@@ -1,0 +1,21 @@
+{
+  "name": "@arodax/webpack-dotenv-plugin",
+  "version": "1.0.1",
+  "description": "Webpack integration of dotenv as a plugin",
+  "license": "MIT",
+  "repository": "@arodax/webpack-dotenv-plugin",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "dotenv",
+    "plugin"
+  ],
+  "author": "Daniel Chodusov <daniel@chodusov.com>",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "peerDependencies": {
+    "webpack": "^1 || ^2 || ^3 || ^4"
+  }
+}
